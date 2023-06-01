@@ -6,7 +6,7 @@ class Solver
 
       num * factorial(num - 1)
     else
-      'Error this is a negative number'
+        raise ArgumentError, "Cannot calculate factorial of a negative number"
     end
   end
 
