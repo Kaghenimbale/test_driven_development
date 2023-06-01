@@ -5,8 +5,10 @@ class Solver
       return 1 if num == 1
 
       num * factorial(num - 1)
+    elsif num.zero?
+      1
     else
-        raise ArgumentError, "Cannot calculate factorial of a negative number"
+      raise ArgumentError, 'Cannot calculate factorial of a negative number'
     end
   end
 

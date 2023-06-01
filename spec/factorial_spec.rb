@@ -15,7 +15,12 @@ describe Solver do
 
     it 'returns factorial of n' do
       solver = Solver.new
-      expect { solver.factorial(-3) }.to raise_error(ArgumentError, "Cannot calculate factorial of a negative number")
+      expect { solver.factorial(-3) }.to raise_error(ArgumentError, 'Cannot calculate factorial of a negative number')
+    end
+
+    it 'return factorial of n' do
+      solver = Solver.new
+      expect(solver.factorial(0)).to eql(1)
     end
   end
 end
