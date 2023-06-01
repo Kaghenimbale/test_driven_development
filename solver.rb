@@ -14,6 +14,3 @@ class Solver
         str.reverse()
     end
 end
-
-solver = Solver.new
-puts solver.reverse('hello')
