@@ -5,12 +5,12 @@ describe Solver do
   describe '#fizzbuzz' do
     it 'it should return fizz' do
       solver = Solver.new
-      expect(solver.fizzbuzz(6)).to eql('fizz')
+      expect(solver.fizzbuzz(3)).to eql('fizz')
     end
 
     it 'it should return buzz' do
       solver = Solver.new
-      expect(solver.fizzbuzz(10)).to eql('buzz')
+      expect(solver.fizzbuzz(5)).to eql('buzz')
     end
 
     it 'it should return fizzbuzz' do
