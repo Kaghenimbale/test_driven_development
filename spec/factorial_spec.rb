@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'rspec'
-require_relative './solver'
+require_relative '../solver'
 
 describe Solver do
   describe '#solver?' do
