@@ -6,7 +6,7 @@ class Solver
             end
             n * factorial(n - 1)
         else
-            "Error this is a negatif number"
+            "Error this is a negative number"
         end
     end
 
