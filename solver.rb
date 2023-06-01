@@ -9,4 +9,11 @@ class Solver
             "Error this is a negatif number"
         end
     end
+
+    def reverse(str)
+        str.reverse()
+    end
 end
+
+solver = Solver.new
+puts solver.reverse('hello')
